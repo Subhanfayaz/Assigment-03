@@ -1,8 +1,10 @@
 
+// ignore_for_file: unused_import
+
 import 'dart:io';
 
 void main(){
-    //Q:1
+   /* //Q:1
     print("Q:1");
     int num = 05;
     if(num == 0){print("$num is zero");}
@@ -61,6 +63,10 @@ void main(){
   int islamiat= 81;
   int totalMarks=maths+computer+science+english+islamiat;
   double per=totalMarks/500*100;
-  print("Total marks:$totalMarks"+"\nPercentage:$per");
+  print("Total marks:$totalMarks"+"\nPercentage:$per");*/
+
+  final val2=<String>['a','b','c','d'];
+  val2.removeWhere((item)=>item.startsWith('b'));
+  print(val2);  
 
 } 
